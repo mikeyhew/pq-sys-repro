@@ -1,0 +1,7 @@
+[package]
+name = "pq-sys-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pq-sys = { version = "0.7.5", features = ["bundled"] }
